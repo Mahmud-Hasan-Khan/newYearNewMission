@@ -175,18 +175,18 @@ body {
     margin-bottom: 0;
 }
 
-.best-offer-img1{
-    border: solid #f00 15px ;
+.best-offer-img1 {
+    border: solid #f00 15px;
     border-radius: 50%;
     padding: 30px;
 }
 
-.best-offer-lastdiv{
+.best-offer-lastdiv {
     margin-left: 40px;
 }
 
-.best-gift{
-    margin: 100px 120px 0;
+.best-gift {
+    margin: 120px 120px 0;
 }
 
 .best-gift h5 {
@@ -212,4 +212,24 @@ body {
     font-family: Inter;
     margin-top: 16px;
     width: 895px;
+}
+
+.gift-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+
+.gift-images img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.gift-images img:hover {
+    border: solid 1px #f00;
+    border-radius: 15px;
+
+    transform: scale(1.09);
+    /* Zoom effect when the image is hovered */
+    transition: transform 0.3s ease;
 }

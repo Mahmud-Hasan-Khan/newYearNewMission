@@ -101,3 +101,33 @@ body {
     border: 0;
     color: #fff;
 }
+
+.join-now{
+    margin: 100px 120px 0;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0));
+    text-align: center;
+    border-radius: 15px;
+    padding: 100px;
+}
+
+.join-now h4{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+}
+.join-now span{
+    color: #f00;
+}
+
+.join-now button{
+    padding: 16px 32px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #f00;
+    border-radius: 8px;
+    border: 0;
+}

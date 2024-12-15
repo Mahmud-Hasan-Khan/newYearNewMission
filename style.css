@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: linear-gradient(to bottom, #070211 0%, rgba(7,2,17,0)), url(/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 0 120px;
+    text-align: center;
+    color: #fff;
+    font-family: Merriweather;
+}
+
+.Happy-New-Year {
+    padding-top: 150px;
+    font-size: 32px;
+}
+
+.New-Year-Party {
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 100px;
+    margin-top: 16px;
+}
